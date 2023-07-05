@@ -1,0 +1,10 @@
+namespaceName: prod
+replicaCount: 2
+image:
+ tag: 1.17.0
+resources:
+ cpu: 70m
+ memory: 256Mi
+service:
+ port: 80
+configMap: "version: 1.17.0"
